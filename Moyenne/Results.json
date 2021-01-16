@@ -1,0 +1,172 @@
+[
+    {
+        "name": "Bases de donnees 1",
+        "credits": 5,
+        "note": "NA"
+    },
+    {
+        "name": "Fonctions et concepts des ordinateurs",
+        "credits": 5,
+        "note": "NA"
+    },
+    {
+        "name": "Introduction a la programmation",
+        "credits": 10,
+        "note": "NA" 
+    },
+    {
+        "name": "Projet de programmation",
+        "credits": 4,
+        "note": "NA"
+    },
+    {
+        "name": "Systemes d'information: etude de cas",
+        "credits": 3,
+        "note": "NA"
+    },
+    {
+        "name": "Fondements mathematiques pour l'informatique 1",
+        "credits": 4,
+        "note": "NA"
+    },
+    {
+        "name": "Mathematiques generales",
+        "credits": 6,
+        "note": "NA"
+    },
+    {
+        "name": "Algebre 1",
+        "credits": 5,
+        "note": "NA"
+    },
+    {
+        "name": "Analyse mathematique",
+        "credits": 5,
+        "note": "NA"
+    },
+    {
+        "name": "Sciences religieuses",
+        "credits": 3,
+        "note": "NA"
+    },
+    {
+        "name": "Communication, argumentation et negociation dans le domaine des TIC",
+        "credits": 3,
+        "note": "NA"
+    },
+    {
+        "name": "Fais et decisions economiques",
+        "credits": 6,
+        "note": "NA"
+    },
+    {
+        "name": "Introduction a la sociologie: histoire des theories de l'organisation",
+        "credits": 3,
+        "note": "NA"
+    },
+    {
+        "name": "Anglais 1",
+        "credits": 3,
+        "note": "NA"
+    },
+    {
+        "name": "Algorithmique",
+        "credits": 5,
+        "note": "NA"
+    },
+    {
+        "name": "Bases de donnees 2",
+        "credits": 3,
+        "note": "NA"
+    },
+    {
+        "name": "Conception et programmation orientee objet",
+        "credits": 5,
+        "note": "NA"
+    },
+    {
+        "name": "Concept des systemes d'exploitation",
+        "credits": 5,
+        "note": "NA"
+    },
+    {
+        "name": "Initiation a l'autoapprentissage par les MOOC",
+        "credits": 3,
+        "note": "NA"
+    },
+    {
+        "name": "Laboratoire de programmation",
+        "credits": 3,
+        "note": "NA"
+    },
+    {
+        "name": "Techniques de programmation",
+        "credits": 5,
+        "note": "NA"
+    },
+    {
+        "name": "Algebre 2",
+        "credits": 6,
+        "note": "NA"
+    },
+    {
+        "name": "Fondements mathematiques pour l'informatique 2",
+        "credits": 3,
+        "note": "NA"
+    },
+    {
+        "name": "Probabilites et statistique",
+        "credits": 6,
+        "note": "NA"
+    },
+    {
+        "name": "Introduction a la pensee philosophique: modernite et rationalite",
+        "credits": 3,
+        "note": "NA"
+    },
+    {
+        "name": "Numerique, droits fondamentaux et cybercriminalite",
+        "credits": 4,
+        "note": "NA"
+    },
+    {
+        "name": "Informatique et sciences",
+        "credits": 3,
+        "note": "NA"
+    },
+    {
+        "name": "Anglais 2",
+        "credits": 3,
+        "note": "NA"
+    },
+    {
+        "name": "Theorie des organisations",
+        "credits": 3,
+        "note": "NA"
+    },
+    {
+        "name": "Interaction Homme/Machine",
+        "credits": 5,
+        "note": "NA"
+    },
+    {
+        "name": "Analyse et modelisation des systemes d'informations",
+        "credits": 5,
+        "note": "NA"
+    },
+    {
+        "name": "Telecommunications et reseaux",
+        "credits": 5,
+        "note": "NA"
+    },
+    {
+        "name": "Technologies Web",
+        "credits": 5,
+        "note": "NA"
+    },
+    {
+        "name": "Programmation fonctionnelle et logique",
+        "credits": 5,
+        "note": "NA"
+    }
+]
