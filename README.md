@@ -21,7 +21,7 @@ If you do not want to take a course into consideration for the mean just set the
 
 ## RandomQuote
 
-Script to learn the use of a web scrapper
+Script to learn the use of a web scrapper. (Found on Internet)
 
 ### How to use?
 
@@ -32,7 +32,7 @@ python main.py
 
 ## POO_Example
 
-Script to get a bit more familiar with Object Oriented Programming in Python 
+Script to get a bit more familiar with Object Oriented Programming in Python . (Found on Internet)
 
 ### How to use?
 
