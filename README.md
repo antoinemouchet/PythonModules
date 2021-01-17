@@ -30,3 +30,14 @@ Script to learn the use of a web scrapper
 python main.py
 ```
 
+## POO_Example
+
+Script to get a bit more familiar with Object Oriented Programming in Python 
+
+### How to use?
+
+1. Execute the following command:
+```cmd
+python model.py
+```
+
