@@ -81,11 +81,13 @@ def get_mean(file_path="Results2.json"):
         note = result["note"]
 
         if(note != "NA"):
-            # Get nb Credits of class
-            ponderation = result["credits"]
+            if (note != "dispense"):
+                # Get nb Credits of class
+                ponderation = result["credits"]
 
-            # Add ponderated note to mean
-            mean += (ponderation * note)
+                # Add ponderated note to mean
+                mean += (ponderation * note)
+        
             # Add nb of credit of the course to total nb of credits
             nb_credits += ponderation
 
@@ -137,7 +139,7 @@ def get_mean_stats(file_path="Results2.json"):
         # Get note of course
         note = result["note"]
 
-        if(note != "NA"):
+        if(note != "NA" and note != "dispense"):
             # Check if note is new lowest
             if(note < low):
                 low = note
