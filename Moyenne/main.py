@@ -1,4 +1,5 @@
 import json
+import sys  
 
 
 class NoCreditException(Exception):
@@ -8,7 +9,7 @@ class NoCreditException(Exception):
     pass
 
 
-def get_credits_info(file_path="Results2.json"):
+def get_credits_info(file_path):
     """
     Returns the number of credits written in the file  indicated by the file_path
     even if no note is indicated for a course
@@ -48,7 +49,7 @@ def get_credits_info(file_path="Results2.json"):
 
 
 
-def get_mean(file_path="Results2.json"):
+def get_mean(file_path):
     """
     Returns the weighted arithmetic mean of the notes of each course specified
     in the json file
@@ -100,7 +101,7 @@ def get_mean(file_path="Results2.json"):
     return mean, nb_credits
 
 
-def get_mean_stats(file_path="Results2.json"):
+def get_mean_stats(file_path):
     """
     Returns the weighted arithmetic mean of the notes of each course
     specified in the json file indicated by the file_path,
@@ -215,17 +216,22 @@ def format_answer(mean, nb_credits, stats=False, low=0, high=0,
     return answer
 
 
-def main():
+def main(file_path):
     """
     Main function displays the most complete information
+
+    Parameters
+    ----------
+    file_path: path of the json file with notes, courses and credits (str)
+
     """
     try:
-        results = get_mean_stats()
-        credits_stats = get_credits_info()
+        results = get_mean_stats(file_path)
+        credits_stats = get_credits_info(file_path)
 
     except NoCreditException:
-        print("No course considered. Make sure the Results.json file\
-            is correctly configured.")
+        print("\nNo course considered. Make sure the Results.json file \
+is correctly configured.\n")
         return
 
     print(format_answer(results[0], results[1], True, results[2], results[3],
@@ -233,4 +239,7 @@ def main():
           credits_stats[2]))
 
 if __name__ == "__main__":
-    main()
+    if len(sys.argv) != 2:
+        print ("\nUSAGE:\n------\npython .\\main.py [json file with info]\n")
+    else:
+        main(sys.argv[1])
