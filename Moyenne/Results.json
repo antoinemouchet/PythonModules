@@ -168,5 +168,35 @@
         "name": "Programmation fonctionnelle et logique",
         "credits": 5,
         "note": "NA"
+    },
+	{
+    "name": "Techniques d'intelligence artificielle",
+    "credits": 5,
+    "note": "NA"
+    },
+    {
+        "name": "Projet individuel",
+        "credits": 9,
+        "note": "NA"
+    },
+    {
+        "name": "Syntaxe et sémantique",
+        "credits": 5,
+        "note": "NA"
+    },
+    {
+        "name": "Securité informatique",
+        "credits": 5,
+        "note": "NA"
+    },
+    {
+        "name": "Anglais 3",
+        "credits": 3,
+        "note": "NA"
+    },
+    {
+        "name": "Introduction à la démarche scientifique",
+        "credits": 5,
+        "note": "NA"
     }
 ]
